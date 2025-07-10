@@ -41,7 +41,7 @@ function Footer() {
             </div>
         </div>
       </div>
-      <p className='text-center pb-2' style={{ color: '#1C0D0F' }}>@2024 StyleHub. All rights reserved.</p>
+      <p className='text-center pb-2' style={{ color: '#1C0D0F' }}>@2024 Shopora. All rights reserved.</p>
     </div>
   )
 }

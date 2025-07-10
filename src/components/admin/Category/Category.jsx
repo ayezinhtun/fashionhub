@@ -25,15 +25,51 @@ const Category = () => {
   const mockData = [
     {
       id: 1,
-      name: 'Tops',
+      name: 'Mattress Protector',
     },
     {
       id: 2,
-      name: 'Bottoms',
+      name: 'Hair & Nail',
     },
      {
       id: 3,
-      name: 'Shoes',
+      name: 'Dining Sets',
+    },
+     {
+      id: 4,
+      name: 'Oxfords & Lace-UPs',
+    },
+    {
+      id: 5,
+      name: 'T-Shirts',
+    },
+    {
+      id: 6,
+      name: 'Clothing Sets',
+    },
+    {
+      id: 7,
+      name: 'Electronics',
+    },
+    {
+      id: 8,
+      name: 'Smart Watches',
+    },
+    {
+      id: 9,
+      name: 'Home Accessories',
+    },
+    {
+      id: 10,
+      name: 'Skin Care',
+    },
+    {
+      id: 11,
+      name: 'Car Accessories',
+    },
+    {
+      id: 12,
+      name: 'Phone Accessories',
     },
   ];
 
