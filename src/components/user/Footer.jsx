@@ -7,7 +7,7 @@ function Footer() {
       <div className="row py-4">
         <div className="col-lg-3">
             <h5>About</h5>
-            <p className='text-muted'>Fashion Hub</p>
+            <p className='text-muted'>Shopora</p>
         </div>
         <div className='col-lg-3'>
             <h5>Quick Links</h5>

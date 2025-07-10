@@ -14,7 +14,7 @@ const Navbar = () => {
               <BrandIcon size={24} />
             </div>
 
-            <a className="navbar-brand" href="#">Fashion Hub</a>
+            <a className="navbar-brand" href="#">Shopora</a>
         </div>
         <button
           className="navbar-toggler"

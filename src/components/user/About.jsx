@@ -14,7 +14,7 @@ const journeyMilestones = [
   {
     year: 2015,
     title: 'The Beginning',
-    description: 'Fashion Hub launches as an online store, offering a curated selection of clothing and accessories.',
+    description: 'Shopora launches as an online store, offering a curated selection of clothing and accessories.',
   },
   {
     year: 2018,
@@ -24,7 +24,7 @@ const journeyMilestones = [
   {
     year: 2020,
     title: 'A New Era',
-    description: 'Fashion Hub undergoes a major website redesign, introducing new features and a more user-friendly interface.',
+    description: 'Shopora undergoes a major website redesign, introducing new features and a more user-friendly interface.',
   },
   {
     year: 2023,
@@ -41,7 +41,7 @@ const About = () => {
     <div className='py-4' style={{ backgroundColor: '#FAFAFA' }}>
       <div className='container'>
           <div className="mb-4" style={{ color: '#1C0D0F' }}>
-              <h2>About Fashion Hub</h2>
+              <h2>About Shopra</h2>
                 <p>At Fashioh Hub, we believe that fashion and technology should seamlessly blend into your everday life. Our journey began in 2020 with a simple idea: to create a one-stop shop where custoemrs coloud find the lateset trends in clothes, footwear and electoonics, all curated with a foucs on quality and style. From our humble beginnings as a small store, we've grown into a trusted destination for fashion-forward
                   individuals and tech enthusiasta alike. </p>
           </div>

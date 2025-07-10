@@ -46,7 +46,7 @@ const SellerSidebar = () => {
       <div
         className={`vh-100 pt-3 d-flex flex-column`}
         style={{
-          width: collapsed ? '80px' : '300px',
+          width: collapsed ? '80px' : '250px',
           backgroundColor: '#E8B5B8',
           transition: 'width 0.3s ease',
           overflowY: 'auto',
@@ -63,7 +63,7 @@ const SellerSidebar = () => {
                     <div className="me-2">
                         <BrandIcon size={24} />
                         </div>
-                        <a className="navbar-brand fw-bold fs-4" href="/">Fashion Hub</a>
+                        <a className="navbar-brand fw-bold fs-4" href="/">Shopora</a>
                     </div>
             </div>
           
