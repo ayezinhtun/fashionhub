@@ -1,0 +1,14 @@
+.btn {
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 0 12px 6px rgba(255, 20, 147, 0.2); /* pink glow */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
