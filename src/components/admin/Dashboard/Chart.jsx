@@ -11,13 +11,13 @@ import {
 } from 'recharts';
 
 const costData = [
-  { month: 'Jan', cost: 4000 },
-  { month: 'Feb', cost: 3000 },
-  { month: 'Mar', cost: 5000 },
-  { month: 'Apr', cost: 4500 },
-  { month: 'May', cost: 6000 },
-  { month: 'Jun', cost: 7000 },
-  { month: 'Jul', cost: 8000 },
+  { month: 'Jan', amount: 4000 },
+  { month: 'Feb', amount: 3000 },
+  { month: 'Mar', amount: 5000 },
+  { month: 'Apr', amount: 4500 },
+  { month: 'May', amount: 6000 },
+  { month: 'Jun', amount: 7000 },
+  { month: 'Jul', amount: 8000 },
 ];
 
 export default function Chart() {
@@ -43,11 +43,11 @@ export default function Chart() {
               borderRadius: '8px',
               boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
             }}
-            formatter={(value) => [`$${value.toLocaleString()}`, 'Cost']}
+            formatter={(value) => [`$${value.toLocaleString()}`, 'Amount']}
           />
           <Line
             type="monotone"
-            dataKey="cost"
+            dataKey="amount"
             stroke="#3B82F6"
             strokeWidth={3}
             dot={{ fill: '#3B82F6', strokeWidth: 2, r: 4 }}
